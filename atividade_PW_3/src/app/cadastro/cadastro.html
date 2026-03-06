@@ -1,0 +1,27 @@
+<h3 style="font-size:50px;">Cadastro de Usuário</h3>
+Olá, preencha os campos para se cadastrar.
+<br>
+<h4 style="font-size:50px;">{{mensagem}}</h4><br>
+
+nome completo: <input type="text" id="nome" placeholder="digite seu nome completo" />
+<br>
+email: <input type="email" id="email" placeholder="informe seu email" />
+<br>
+senha: <input type="password" id="senha" placeholder="crie uma senha" />
+<br>
+confirmar senha: <input type="password" id="confirmaSenha" placeholder="confirme sua senha" />
+<br>
+telefone: <input type="text" id="telefone" placeholder="(00) 00000-0000" />
+<br>
+data de nascimento: <input type="date" id="dataNasc" />
+<br>
+genero:
+<select id="genero">
+    <option>Masculino</option>
+    <option>Feminino</option>
+    <option>Prefiro não informar</option>
+</select>
+<br>
+aceito os termos de uso: <input type="checkbox" id="termos"> 
+<br>
+<button (click)="cadastrar()">Cadastrar</button>
